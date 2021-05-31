@@ -18,7 +18,7 @@ class HomeView extends GetView<HomeController> {
           children: [
             TextField(
               decoration: InputDecoration(
-                hintText: "Data for deep link (ex: /hello?hi=12)",
+                hintText: "Data for deep link (ex: hello?hi=12)",
               ),
               onChanged: (value) => homeController.data.value = value,
             ),

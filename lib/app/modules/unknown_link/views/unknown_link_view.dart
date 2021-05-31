@@ -13,7 +13,7 @@ class UnknownLinkView extends GetView<UnknownLinkController> {
       ),
       body: Center(
         child: Text(
-          'Navigated using deep Link with Data: ${Get.parameters}',
+          'Navigated using deep Link with Url: ${Get.arguments}, Data: ${Get.parameters}',
           style: TextStyle(fontSize: 20),
         ),
       ),

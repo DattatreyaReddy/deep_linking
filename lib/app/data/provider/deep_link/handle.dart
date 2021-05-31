@@ -10,7 +10,7 @@ void handleDeepLink() async {
     onSuccess: (PendingDynamicLinkData? data) async {
       final Uri? deepLink = data?.link;
       if (deepLink != null)
-        Get.toNamed(deepLink.path, parameters: data?.link.queryParameters);
+        Get.toNamed(deepLink.path, parameters: data?.link.queryParameters, arguments: deepLink.toString());
     },
     onError: (OnLinkErrorException e) async {
       print('onLinkError');
