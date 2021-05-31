@@ -22,8 +22,8 @@ class HomeController extends GetxController {
     );
   }
 
-  void launchURL() async {
-    await launch(deepLink.value);
+  void launchURL(String url) async {
+    await launch(url);
   }
 
   @override

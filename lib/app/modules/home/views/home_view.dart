@@ -18,7 +18,7 @@ class HomeView extends GetView<HomeController> {
           children: [
             TextField(
               decoration: InputDecoration(
-                hintText: "Data for deep link",
+                hintText: "Data for deep link (ex: /hello?hi=12)",
               ),
               onChanged: (value) => homeController.data.value = value,
             ),
@@ -45,14 +45,14 @@ class HomeView extends GetView<HomeController> {
               child: Text("Create Deep Link"),
             ),
             TextButton(
-              onPressed: () => homeController.launchURL(),
+              onPressed: () => homeController.launchURL(homeController.deepLink.value),
               child: Obx(
                 () => Text(homeController.deepLink.value),
               ),
             ),
             TextButton(
-              onPressed: () => Get.toNamed("/hi"),
-              child: Text("data"),
+              onPressed: () => homeController.launchURL("https://deeplinkingpadya.page.link/iGuj"),
+              child: Text("https://deeplinkingpadya.page.link/iGuj - Deep Link Handling"),
             )
           ],
         ),
