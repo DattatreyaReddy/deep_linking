@@ -7,7 +7,7 @@ Future<String> createDeepLink({
   String? description,
   Uri? imageUrl,
   String? title,
-  bool shortLink = false,
+  bool shortLink = true,
 }) async {
   final DynamicLinkParameters parameters = DynamicLinkParameters(
     uriPrefix: kUriPrefix,
