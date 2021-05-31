@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "824966277209",
+    "project_id": "deep-linking-63c2c",
+    "storage_bucket": "deep-linking-63c2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824966277209:android:c56d2524c40f4375626948",
+        "android_client_info": {
+          "package_name": "com.padya.deep_linking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824966277209-iv8utosgea7r07ukq77lb30jgptnn5an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.padya.deep_linking",
+            "certificate_hash": "06eddfc84c5c1ba6f130684361543db7d6a59411"
+          }
+        },
+        {
+          "client_id": "824966277209-lck0424rc62jh7frpfpudqt4fcarba47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA66G9Dg8N4RhAEBC0GMXGaYXG1J7CURk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824966277209-lck0424rc62jh7frpfpudqt4fcarba47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
